@@ -5,12 +5,12 @@
          point="org.eclipse.ui.commands">
       <category
             id="PopUUID4.commands.category"
-            name="Sample Category">
+            name="PopUUID4">
       </category>
       <command
             categoryId="PopUUID4.commands.category"
             id="PopUUID4.commands.sampleCommand"
-            name="Sample Command">
+            name="Copy one UUID to clipboard">
       </command>
    </extension>
    <extension
@@ -35,8 +35,8 @@
             locationURI="menu:org.eclipse.ui.main.menu?after=additions">
          <menu
                id="PopUUID4.menus.sampleMenu"
-               label="Sample Menu"
-               mnemonic="M">
+               label="PopUUID4"
+               mnemonic="P">
             <command
                   commandId="PopUUID4.commands.sampleCommand"
                   id="PopUUID4.menus.sampleCommand"
@@ -52,7 +52,7 @@
                   commandId="PopUUID4.commands.sampleCommand"
                   icon="icons/sample.gif"
                   id="PopUUID4.toolbars.sampleCommand"
-                  tooltip="Say hello world">
+                  tooltip="Copy one UUID to clipboard">
             </command>
          </toolbar>
       </menuContribution>
