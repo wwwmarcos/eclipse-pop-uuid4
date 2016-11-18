@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: PopUUID4
+Bundle-SymbolicName: PopUUID4;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Import-Package: org.eclipse.jem.java.util,
+ org.osgi.framework;version="1.8.0"
+Bundle-Activator: popuuid4.activator.Activador
+Require-Bundle: org.eclipse.ui
