@@ -1,4 +1,4 @@
-# eclipse-pop-uui4
+# eclipse-pop-uuid4
 Plugin para eclipse e seus decentes para copiar UUIDS para a área de transferencia.
 
 ## Porque?
